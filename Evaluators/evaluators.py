@@ -18,6 +18,16 @@ class evaluator_Best_Mean(nn.Module):
         x = (melhor-media)/media
         loss = np.exp(-1*x)
         return loss
+
+    def best_chromossome(self,population):
+        ch_fit = []
+        for index,chromosome in enumerate(population):
+            fit = self.decoder.decode(chromosome,True)
+            ch_fit.append((fit,index))
+            ch_fit.sort(reverse=True)
+        return ch_fit
+           
+
         
         
     def forward(self,population):
