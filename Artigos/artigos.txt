@@ -1,0 +1,7 @@
+1-Comparative study between a neural network, approach metaheuristic and exact method for solving Traveling salesman Problem
+2-Discriminating and Clustering Ordered Permutations Using Neural Network and Potential Applications in Neural Network-Guided Metaheuristics
+3-Machine Learning Approaches for the Traveling Salesman Problem: A Survey
+4-Reinforcement Learning and Additional Rewards for the Traveling Salesman Problem
+5-Combinatorial optimization and reasoning with graph neural networks
+6-Applicability of Neural Combinatorial Optimization: A Critical View
+7-Machine Learning into Metaheuristics: A Survey and Taxonomy
