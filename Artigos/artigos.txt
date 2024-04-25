@@ -5,3 +5,8 @@
 5-Combinatorial optimization and reasoning with graph neural networks
 6-Applicability of Neural Combinatorial Optimization: A Critical View
 7-Machine Learning into Metaheuristics: A Survey and Taxonomy
+8-Low-Dimensional euclidean embedding for visualization of search spaces in combinatorial optimization
+9-A New Constructive Heuristic driven by Machine Learning for the Traveling Salesman Problem
+10-Machine Learning Constructives and Local Searches for the Travelling Salesman Problem
+11-The neural network methods for solving Traveling Salesman Problem
+12-Neural network approach to solving the Traveling Salesman Problem 
