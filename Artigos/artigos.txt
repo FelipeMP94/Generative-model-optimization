@@ -1,12 +1,54 @@
 1-Comparative study between a neural network, approach metaheuristic and exact method for solving Traveling salesman Problem
+
+
+
+
+
+
+
+
 2-Discriminating and Clustering Ordered Permutations Using Neural Network and Potential Applications in Neural Network-Guided Metaheuristics
 3-Machine Learning Approaches for the Traveling Salesman Problem: A Survey
+
+Introduz um mapa mental para ajudar a navegar pela literatura de indicando as abordagens mais promissoras.
+
+Diferenciações entre as técnicas:
+
+Entrada de dados: Dos solvers ML-driven a maioria só consegue lidar com distâncias euclidianas, já que são baseados em coordenadas, 
+PORÉM ALGUNS SISTEMAS CONSEGUEM INCORPORAR GRAPHOS, ou incorporar a distância entre as cidades. Outro método não usual, foi de mapear coordenadas das cidadades em imagens, e depois utilizar técnicas de tradução de imagem para imagem,
+para inferir a probabilidade de que uma ligação entre duas cidades estivesse na solução ótima.
+
+ O conceito de mapear pode levar a generalizações melhores.
+
+ Tarefa: A tarefa do modelo de ML é uma decisão central, a maioria das abordagens está se focando
+encontrar regras para construir soluções. Foi proposta uma tarefa de aprender via busca local como melhorar a solução inicial escolhendo
+a melhor tour disponível entre um conjunto de soluções viáveis geradas por uma função de vizinhança. 
+
+Vale a ideia de trainar um modelo a aprender a melhor dividir o problema em situações de divisão e conquista.
+
+Flow: Podemos dividir em autoregressivo de forma que o modelo usa as decisões anteriores para pensar as próximas e de One Shot Onde toda 
+a informação útil é extraida para se tomar uma decisão.
+
+BackBone and searching strateggies: O NN seleceiona de forma gulosa que maximiza as probabilidades aprendidas pelo output da ANN.
+Beam Search foi muito aplicado para aumentar o espaço de busca. Tiveram tentaticas de aplicar a arvore de Monte carlo as probabilidades
+porém levou mt tempo. Multi Fragment MOSTROU-SE UMA ABORDAGEM EFETIVA. Ressaltando a importância de testar diferentes métodos de 
+construção como Backbone para aprendizagem. 
+
+Estratégias de Sampling foram aplicadas também para melhor a relação tempo-qualidade. Explorando a probabilidade das arestas de criarem
+multiplas soluções para escolhes a melhor eventualmente. 
+
+AS consiste em treinar uma ANN NUMA ÚNICA INSTÂNCIA DE teste enquanto mantem a ateção na melhor solução sampleada durante a busca.
+
+
+
 4-Reinforcement Learning and Additional Rewards for the Traveling Salesman Problem
-5-Combinatorial optimization and reasoning with graph neural networks
-6-Applicability of Neural Combinatorial Optimization: A Critical View
-7-Machine Learning into Metaheuristics: A Survey and Taxonomy
-8-Low-Dimensional euclidean embedding for visualization of search spaces in combinatorial optimization
+5-Combinatorial optimization and reasoning with graph neural networks(Alta)
+6-Applicability of Neural Combinatorial Optimization: A Critical View (Alta)
+7-Machine Learning into Metaheuristics: A Survey and Taxonomy (Alta)
+8-Low-Dimensional euclidean embedding for visualization of search spaces in combinatorial optimization(Alta)
 9-A New Constructive Heuristic driven by Machine Learning for the Traveling Salesman Problem
-10-Machine Learning Constructives and Local Searches for the Travelling Salesman Problem
+10-Machine Learning Constructives and Local Searches for the Travelling Salesman Problem (Alta)
 11-The neural network methods for solving Traveling Salesman Problem
 12-Neural network approach to solving the Traveling Salesman Problem 
+
+13-Learnheuristics: hybridizing metaheuristics with machine learning for optimization with dynamic inputs
